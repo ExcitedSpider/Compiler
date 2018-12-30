@@ -1,0 +1,6 @@
+﻿Stmt        ::=   WhileStmt Stmt | Expr; Stmt | IfStmt Stmt | ε
+Expr        ::=	  Term Expr' 
+Expr'	    ::=	  + Expr | - Expr | * Expr | / Expr | < Expr | > Expr | == Expr | != Expr | = Expr | ε
+Term	    ::=	  id | num
+WhileStmt   ::=	  while (Expr) {Stmt}
+IfStmt      ::=	  if(Expr){Stmt}else{Stmt}

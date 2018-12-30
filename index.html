@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>编译原理实验</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="UI/semantic.js"></script>
+  <link rel="stylesheet" type="text/css" href="UI/semantic.css">
+  <style>
+    body>.ui.container {
+      margin-top: 9em;
+      padding: 2em;
+    }
+
+    iframe {
+      border: none;
+      width: calc(100% + 2em);
+      margin: 0em -1em;
+      height: 300px;
+    }
+
+    iframe html {
+      overflow: hidden;
+    }
+
+    iframe body {
+      padding: 0em;
+    }
+
+    .ui.container>h1 {
+      font-size: 3em;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .ui.container>h2.dividing.header {
+      font-size: 2em;
+      font-weight: normal;
+      margin: 4em 0em 3em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ui container">
+    <h1>编译原理实验</h1>
+    <div class="ui hidden divider"></div>
+    <div class="ui horizontal divider">
+      实验内容
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui centered cards">
+      <div class="card">
+        <a class="content" href=".\语法.html">
+          <div class="header">语法说明</div>
+          <div class="meta">语法说明</div>
+          <div class="description">
+            查看实验中使用的语法和Token定义的正则说明。
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a class="content" href=".\lex\Lex.html">
+          <div class="header">词法分析器</div>
+          <div class="meta">词法分析器</div>
+          <div class="description">
+            查看实验中使用的词法，参考输入文件，运行词法分析程序，查看程序源文件。
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a class="content" href=".\parsing\Parsing.html">
+          <div class="header">语法分析器</div>
+          <div class="meta">语法分析器</div>
+          <div class="description">
+            查看实验中使用的语法，参考输入文件，运行语法分析程序，查看LL1预处理文法，查看PPT，查看源文件。
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
